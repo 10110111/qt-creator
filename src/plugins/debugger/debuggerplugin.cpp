@@ -695,14 +695,14 @@ public:
     ProxyAction m_hiddenStopAction;
     QAction m_undisturbableAction;
     OptionalAction m_startAction;
-    QAction m_debugWithoutDeployAction{tr("Start Debugging Without Deployment")};
-    QAction m_startAndDebugApplicationAction{tr("Start and Debug External Application...")};
-    QAction m_attachToRunningApplication{tr("Attach to Running Application...")};
-    QAction m_attachToUnstartedApplication{tr("Attach to Unstarted Application...")};
+    QAction m_debugWithoutDeployAction{tr("Start Debugging &Without Deployment")};
+    QAction m_startAndDebugApplicationAction{tr("Start and Debug &External Application...")};
+    QAction m_attachToRunningApplication{tr("&Attach to Running Application...")};
+    QAction m_attachToUnstartedApplication{tr("Attach to &Unstarted Application...")};
     QAction m_attachToQmlPortAction{tr("Attach to QML Port...")};
-    QAction m_attachToRemoteServerAction{tr("Attach to Running Debug Server...")};
-    QAction m_startRemoteCdbAction{tr("Attach to Remote CDB Session...")};
-    QAction m_attachToCoreAction{tr("Load Core File...")};
+    QAction m_attachToRemoteServerAction{tr("Attach to Running &Debug Server...")};
+    QAction m_startRemoteCdbAction{tr("Attach to &Remote CDB Session...")};
+    QAction m_attachToCoreAction{tr("Load &Core File...")};
 
     // In the Debug menu.
     QAction m_startAndBreakOnMain{tr("Start and Break on Main")};
